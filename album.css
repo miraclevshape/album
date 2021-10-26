@@ -1,0 +1,63 @@
+@charset "UTF-8";
+.clearfix::after {
+   content: "";
+   display: block;
+   clear: both;
+}
+body{
+  width:600px;
+  margin:0 auto;
+  margin-top: 1px;
+}
+#pages{
+  border:1px solid gray;
+}
+header{
+  text-align: center;
+  width:100%;
+  background: #a3fcff;
+}
+article{
+  padding: 10px 10px;
+}
+img:hover{
+	opacity: 0.5 ;
+}
+.albumtitle{
+  font-family: sans-seriff
+  margin-bottom: 10px;
+}
+.jacket{
+  float:left;
+  margin-right: 10px;
+}
+#albumside{
+
+}
+.cdtype{
+  display: inline-block;
+  background: pink;
+  color: white;
+}
+#track{
+  background: #f2f7ff;
+  margin-top: 10px;
+}
+ol{
+  padding-left:0px;
+}
+li{
+  font-size: 12px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  list-style-position: inside;
+}
+footer{
+  background: #f2f7ff;
+  width: 100%;
+}
+#copyright{
+  text-align: center;
+  font-size: 8px;
+}
